@@ -1,0 +1,27 @@
+{
+  "name": "spacstars",
+  "version": "1.0.0",
+  "dependencies": {
+    "kotlin": "1.4.31",
+    "gradle": "1.2.3",
+    "junit": "1.4.9"
+  },
+  "description": "CSE442 Project Team 1",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse442-spring-2020-offering/cse442-project-team-1.git"
+  },
+  "author": "Ann K., Christopher M., Shijia Z.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse442-spring-2020-offering/cse442-project-team-1/issues"
+  },
+  "homepage": "https://github.com/cse442-spring-2020-offering/cse442-project-team-1#readme"
+}

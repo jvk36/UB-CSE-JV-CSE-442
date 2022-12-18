@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchSocialMedia">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/search_terms"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/google"
+        app:layout_constraintBottom_toTopOf="@+id/btnTwitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="5.0"
+        app:layout_constraintStart_toEndOf="@+id/btnTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintVertical_bias="1.5"
+        app:srcCompat="@drawable/google_color" />
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/twitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/twitter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btnReddit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="5.0"
+        app:layout_constraintStart_toEndOf="@+id/btnReddit"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwitter"
+        app:layout_constraintVertical_bias="1.5"
+        app:srcCompat="@drawable/iconfinder_twitter_circle_294709"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnReddit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/reddit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwitter" />
+
+    <ImageView
+        android:id="@+id/reddit"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/reddit"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btnFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="5.0"
+        app:layout_constraintStart_toEndOf="@+id/btnFacebook"
+        app:layout_constraintTop_toBottomOf="@+id/btnReddit"
+        app:layout_constraintVertical_bias="1.5"
+        app:srcCompat="@drawable/iconfinder_reddit_4550872_121349"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/facebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReddit" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginRight="208dp"
+        android:contentDescription="@string/facebook"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="5.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook"
+        app:layout_constraintVertical_bias="1.5"
+        app:srcCompat="@drawable/iconfinder_facebook_834722"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

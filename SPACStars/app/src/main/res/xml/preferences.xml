@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title='Select the information to display in the listings pages.'>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pre - LOI">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_marketcap"
+            android:title="Market Cap" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_esttrustvalue"
+            android:title="Estimated Trust Value" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_currentvolume"
+            android:title="Current Volume" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_averagevolume"
+            android:title="Average Volume" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_warrantticker"
+            android:title="Warrant Ticker" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_targetfocus"
+            android:title="Target Focus" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_underwriters"
+            android:title="Underwriters" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_ipodate"
+            android:title="IPO Date" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preloi_deadlinedate"
+            android:title="Deadline Date" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Definitive Agreement">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="definitiveagreement_marketcap"
+            android:title="Market Cap" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="definitiveagreement_currentvolume"
+            android:title="Current Volume" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="definitiveagreement_volumeaverage"
+            android:title="Volume Average" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="definitiveagreement_target"
+            android:title="Target" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Option Chads">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="optionchads_marketcap"
+            android:title="Market Cap" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="optionchads_esttrustvalue"
+            android:title="Estimated Trust Value" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="optionchads_currentvolume"
+            android:title="Current Volume" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="optionchads_volumeaverage"
+            android:title="Volume Average" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pre Unit Split">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preunit_unit"
+            android:title="Unit and Warrant Details" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preunit_ets"
+            android:title="Estimated Trust Size" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preunit_pl"
+            android:title="Prominent Leadership" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preunit_tf"
+            android:title="Target Focus" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pre IPO">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preipo_etv"
+            android:title="Estimated Trust Value" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preipo_managementteam"
+            android:title="Management Team" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="preipo_targetfocus"
+            android:title="Target Focus" />
+    </PreferenceCategory>
+</PreferenceScreen>
